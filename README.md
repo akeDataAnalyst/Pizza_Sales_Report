@@ -1,6 +1,6 @@
 # Pizza-Sales-Report
 
-#[Project 1: Pizza-Sales-Report](https://github.com/akeDataAnalyst/Pizza-Sales-)
+# [Project 1: Pizza-Sales-Report](https://github.com/akeDataAnalyst/Pizza-Sales-)
 
 This is a project I did to visualize various aspects of pizza sales data to gain insights and understand key trends
 
@@ -58,4 +58,5 @@ order by total_revenue asc`
 `select top 5 pizza_name, sum(quantity) AS total_quantity from pizza_sales_excel_file
 group by pizza_name 
 order by total_quantity asc`
+
 
