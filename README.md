@@ -36,6 +36,8 @@ where datepart(quarter,order_date)=1
 group by pizza_size
 order by pct desc`
 
+![alt text](https://github.com/akeDataAnalyst/Pizza-Sales-Report/blob/73c2c1fe306d50521358b45c00674e007c362998/pizzaimage%20(1).PNG)
+
 ## top 5 best sellers by revenue,total quantity and total orders
 
 `select top 5 pizza_name, sum(total_price) AS total_revenue from pizza_sales_excel_file
@@ -62,4 +64,3 @@ order by total_quantity asc`
 
 ![](https://github.com/akeDataAnalyst/Pizza-Sales-Report/blob/73c2c1fe306d50521358b45c00674e007c362998/pizzaimage%20(2).PNG)
 
-![alt text](https://github.com/akeDataAnalyst/Pizza-Sales-Report/blob/73c2c1fe306d50521358b45c00674e007c362998/pizzaimage%20(1).PNG)
