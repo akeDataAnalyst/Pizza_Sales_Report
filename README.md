@@ -1,5 +1,4 @@
-# Pizza-Sales-Report
-Power BI 
+# Pizza-Sales-Report | Power BI 
 
 # [Project 1: Pizza-Sales-Report](https://github.com/akeDataAnalyst/Pizza-Sales-)
 
