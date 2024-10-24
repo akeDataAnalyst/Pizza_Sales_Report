@@ -5,6 +5,8 @@ Power BI
 
 This is a project I did to visualize various aspects of pizza sales data to gain insights and understand key trends
 
+[Excel Pizza Sales file](pizza_sales_excel_file.xlsx)
+
 ## Daily trends for total orders 
 
 `select DATENAME(DW,order_date) as order_day, count(distinct order_id) as total_orders 
