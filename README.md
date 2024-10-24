@@ -63,5 +63,5 @@ order by total_revenue asc`
 group by pizza_name 
 order by total_quantity asc`
 
-![](https://github.com/akeDataAnalyst/Pizza-Sales-Report/blob/73c2c1fe306d50521358b45c00674e007c362998/pizzaimage%20(2).PNG)
+![](/pizzaimage%20(2).PNG)
 
