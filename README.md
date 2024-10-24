@@ -1,7 +1,7 @@
 # Pizza-Sales-Report  
 Power BI 
 
-# [Project 1: Pizza-Sales-Report](https://github.com/akeDataAnalyst/Pizza-Sales-)
+# [Project 1: Pizza-Sales-Report](https://akedataanalyst.github.io/Pizza-Sales-Report/)
 
 This is a project I did to visualize various aspects of pizza sales data to gain insights and understand key trends
 
