@@ -37,7 +37,7 @@ where datepart(quarter,order_date)=1
 group by pizza_size
 order by pct desc`
 
-![ ](pizzaimage(1).PNG)
+![](pizza0.PNG)
 
 ## top 5 best sellers by revenue,total quantity and total orders
 
@@ -63,5 +63,5 @@ order by total_revenue asc`
 group by pizza_name 
 order by total_quantity asc`
 
-![](/pizzaimage%20(2).PNG)
+![](pizza1.PNG)
 
