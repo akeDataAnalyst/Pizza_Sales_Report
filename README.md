@@ -3,7 +3,7 @@ Power BI
 
 # [Project 1: Pizza-Sales-Report](https://akedataanalyst.github.io/Pizza-Sales-Report/)
 
-The project focuses on  visualizing various aspects of pizza sales data to gain insights and understand key trends
+This project focuses on  visualizing various aspects of pizza sales data to gain insights and understand key trends
 
 [Excel Pizza Sales file](pizza_sales_excel_file.xlsx)
 
