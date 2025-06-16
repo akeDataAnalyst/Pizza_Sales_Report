@@ -2,9 +2,11 @@ Power BI
 
 # [Pizza-Sales-Report](https://akedataanalyst.github.io/Pizza-Sales-Report/)
 
-## Objective: Analyzed pizza sales data (Jan–Dec 2015) to uncover operational insights and support business decision-making.
+## Objective: 
+- Analyzed pizza sales data (Jan–Dec 2015) to uncover operational insights and support business decision-making.
 
-### Tools: Power BI, Excel
+## Tools: 
+- Power BI, Excel
 
 ## Key Contributions:
 
@@ -24,14 +26,17 @@ Power BI
 
 - Low performers: Brie Carre and Mediterranean pizzas
 
-### Calculated key KPIs: total revenue ($817.86K), average order value ($38.31), average pizzas per order (2.32)
-
-### Enhanced decision-making through root cause analysis of poor-performing products and visual storytelling
-
-## Outcome: Helped stakeholders quickly understand patterns and optimize inventory, marketing, and delivery timing strategies.
+### Calculated key KPIs: 
+- total revenue ($817.86K), average order value ($38.31), average pizzas per order (2.32)
 
 ![](pizza0.PNG)
 
 ![](pizza1.PNG)
+
+### Enhanced decision-
+- making through root cause analysis of poor-performing products and visual storytelling
+
+## Outcome: 
+- Helped stakeholders quickly understand patterns and optimize inventory, marketing, and delivery timing strategies.
 
 # Thank You for Your Time!
