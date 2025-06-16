@@ -1,69 +1,36 @@
-# Pizza-Sales-Report  
 Power BI 
 
-# [Project 1: Pizza-Sales-Report](https://akedataanalyst.github.io/Pizza-Sales-Report/)
+# [Pizza-Sales-Report](https://akedataanalyst.github.io/Pizza-Sales-Report/)
 
-This project focuses on  visualizing various aspects of pizza sales data to gain insights and understand key trends
+## Objective: Analyzed pizza sales data (Jan–Dec 2015) to uncover operational insights and support business decision-making.
 
-[Excel Pizza Sales file](pizza_sales_excel_file.xlsx)
+### Tools: Power BI, Excel
 
-## Daily trends for total orders 
+## Key Contributions:
 
-`select DATENAME(DW,order_date) as order_day, count(distinct order_id) as total_orders 
-from pizza_sales_excel_file
-group by DATENAME(DW,order_date)`
+### Developed interactive dashboards visualizing:
 
-## Monthly trend for total orders
+- Daily and monthly order trends
 
-`select datename(month,order_date) as month_name, count(distinct order_id) as total_orders
-from pizza_sales_excel_file
-group by datename(month,order_date)
-order by total_orders desc`
+- Sales by pizza size and category
 
-## percentage of sales by pizza catagory
+- Best/worst selling pizzas by revenue, quantity, and total orders
 
-`select pizza_category, sum(total_price)*100/(select sum(total_price) from pizza_sales)`
+### Derived actionable insights:
 
-`select pizza_category,sum(total_price) as total_sales, sum(total_price) * 100 / (select sum(total_price) 
-from  pizza_sales_excel_file where month(order_date) = 1 ) as pct
-from pizza_sales_excel_file 
-where month(order_date) = 1
-group by pizza_category`
+- Peak sales periods: Fridays, Saturdays, July & January
 
-## percentage of sales by pizza size
+- Top performers: Thai Chicken and Classic Deluxe pizzas
 
-`select pizza_size,cast(sum(total_price) as decimal(10,2)) as total_sales, cast(sum(total_price) * 100 / ( select sum(total_price) 
-from  pizza_sales_excel_file where datepart(quarter,order_date)=1)  as decimal(10,2)) as pct
-from pizza_sales_excel_file 
-where datepart(quarter,order_date)=1
-group by pizza_size
-order by pct desc`
+- Low performers: Brie Carre and Mediterranean pizzas
+
+### Calculated key KPIs: total revenue ($817.86K), average order value ($38.31), average pizzas per order (2.32)
+
+### Enhanced decision-making through root cause analysis of poor-performing products and visual storytelling
+
+## Outcome: Helped stakeholders quickly understand patterns and optimize inventory, marketing, and delivery timing strategies.
 
 ![](pizza0.PNG)
-
-## top 5 best sellers by revenue,total quantity and total orders
-
-`select top 5 pizza_name, sum(total_price) AS total_revenue from pizza_sales_excel_file
-group by pizza_name 
-order by total_revenue desc`
-
-`select top 5 pizza_name, sum(quantity) AS total_quantity from pizza_sales_excel_file
-group by pizza_name 
-order by total_quantity desc`
-
-`select top 5 pizza_name, count(distinct order_id) AS total_order from pizza_sales_excel_file
-group by pizza_name 
-order by total_order desc`
-
-## bottom 5 best sellers by revenue,total quantity and total orders
-`select top 5 pizza_name, sum(total_price) AS total_revenue from pizza_sales_excel_file
-group by pizza_name 
-order by total_revenue asc`
-
-
-`select top 5 pizza_name, sum(quantity) AS total_quantity from pizza_sales_excel_file
-group by pizza_name 
-order by total_quantity asc`
 
 ![](pizza1.PNG)
 
